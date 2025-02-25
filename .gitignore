@@ -1,0 +1,78 @@
+# Dependency directories and files
+node_modules/
+
+# Package manager logs and directories
+# npm
+npm-debug.log*
+.npm/
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Lock files - track Bun's lock file but ignore others
+package-lock.json
+yarn.lock
+# bun.lockb is not ignored since we're using Bun
+
+# Build output
+dist/
+out/
+build/
+.electron-builder/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.vs/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.project
+.classpath
+.settings/
+*.vi
+*~
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+
+# Cache directories
+.cache/
+.parcel-cache/
+.webpack/
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# Electron specific
+userData/
