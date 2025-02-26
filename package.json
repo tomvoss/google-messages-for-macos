@@ -1,0 +1,24 @@
+{
+  "name": "google-messages-for-macos",
+  "version": "0.1.0",
+  "description": "Google Messages wrapped in Electron with proper macOS window behavior",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:mac": "electron-builder --mac"
+  },
+  "keywords": [
+    "google-messages",
+    "electron",
+    "macos"
+  ],
+  "author": "Tom Voss",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.6.4",
+    "@types/bun": "latest"
+  }
+}
