@@ -1,0 +1,7 @@
+appId: com.vosslink.googlemessages
+productName: Google Messages for macOS
+mac:
+  category: public.app-category.social-networking
+  darkModeSupport: true
+  hardenedRuntime: true
+  icon: assets/icon.icns
