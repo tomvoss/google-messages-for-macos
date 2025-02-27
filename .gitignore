@@ -1,34 +1,14 @@
-# Dependency directories and files
-node_modules/
+# Rust/Tauri build artifacts
+target/
+src-tauri/target/
+src-tauri/gen/
+src-tauri/icons/
+*.app
+*.dmg
+*.exe
+*.msi
 
-# Package manager logs and directories
-# npm
-npm-debug.log*
-.npm/
-
-# Yarn
-yarn-debug.log*
-yarn-error.log*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-.pnp.*
-
-# Lock files - track Bun's lock file but ignore others
-package-lock.json
-yarn.lock
-# bun.lockb is not ignored since we're using Bun
-
-# Build output
-dist/
-out/
-build/
-.electron-builder/
-
-# OS specific files
+# OS-specific files
 .DS_Store
 .DS_Store?
 ._*
@@ -39,7 +19,7 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# Editor directories and files
+# Editor files
 .idea/
 .vscode/
 *.swp
@@ -61,18 +41,7 @@ $RECYCLE.BIN/
 .env.test.local
 .env.production.local
 
-# Logs
-logs
+# Logs and caches
+logs/
 *.log
-
-# Cache directories
 .cache/
-.parcel-cache/
-.webpack/
-
-# Coverage directories
-coverage/
-.nyc_output/
-
-# Electron specific
-userData/
